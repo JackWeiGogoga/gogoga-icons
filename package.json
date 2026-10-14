@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Companion plugin for the gogoga Obsidian theme: replaces built-in Lucide UI icons with Phosphor icons.",
   "type": "module",
-  "license": "AGPL-3.0-or-later",
+  "license": "MIT",
   "scripts": {
     "generate": "node gen-icons.mjs"
   },
