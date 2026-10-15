@@ -173,6 +173,7 @@ const ICONS = ${JSON.stringify(icons, null, 0)};
 
 module.exports = class GogogaIcons extends Plugin {
   onload() {
+    this.contents = new Map();
     for (const [id, raw] of Object.entries(ICONS)) {
       const mirrored = raw.startsWith('M|');
       const body = mirrored ? raw.slice(2) : raw;
@@ -180,8 +181,41 @@ module.exports = class GogogaIcons extends Plugin {
         '" fill="currentColor" stroke="none">' + body + '</g>';
       addIcon(id, content);
       addIcon('lucide-' + id, content);
+      this.contents.set(id, content);
+    }
+    // addIcon only affects icons drawn from now on. The ribbon, tab headers,
+    // file tree and so on were drawn before this plugin loaded, so repaint
+    // those in place instead of waiting for an app restart.
+    this.repaint(document);
+    this.app.workspace.onLayoutReady(() => this.repaint(document));
+    this.registerEvent(this.app.workspace.on('window-open', (win) => this.repaint(win.doc)));
+  }
+
+  /** Swap the artwork of already-rendered built-in icons we have a Phosphor version of. */
+  repaint(doc) {
+    for (const svg of Array.from(doc.querySelectorAll('svg.svg-icon'))) {
+      // Custom icons (ours, or other plugins') already use the 100 grid.
+      if (svg.getAttribute('viewBox') === '0 0 100 100') continue;
+      const id = this.idFor(svg);
+      if (!id) continue;
+      const parsed = new DOMParser().parseFromString(
+        '<svg xmlns="http://www.w3.org/2000/svg">' + this.contents.get(id) + '</svg>',
+        'image/svg+xml'
+      ).documentElement;
+      svg.setAttribute('viewBox', '0 0 100 100');
+      svg.replaceChildren(...Array.from(parsed.childNodes).map((n) => doc.importNode(n, true)));
     }
   }
+
+  idFor(svg) {
+    for (const cls of Array.from(svg.classList)) {
+      if (cls === 'svg-icon') continue;
+      const id = cls.startsWith('lucide-') ? cls.slice(7) : cls;
+      if (this.contents.has(id)) return id;
+    }
+    return null;
+  }
+
   // Built-in icons are restored when the app reloads; addIcon has no
   // unregister API, so onunload intentionally does nothing.
   onunload() {}
