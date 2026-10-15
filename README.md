@@ -1,5 +1,7 @@
 # gogoga icons
 
+**English** | [简体中文](https://github.com/JackWeiGogoga/gogoga-icons/blob/main/README.zh-CN.md)
+
 Companion plugin for the [gogoga](https://github.com/JackWeiGogoga/gogoga-theme) Obsidian theme. It replaces ~110 of
 Obsidian's built-in Lucide UI icons with [Phosphor Icons](https://phosphoricons.com/)
 (regular weight) — the icon set used by Tolaria — via Obsidian's `addIcon()` API.
@@ -30,6 +32,6 @@ Disabling the plugin restores the original icons after an app reload
 
 ## Licenses
 
-This plugin is MIT licensed (see [LICENSE](LICENSE)). The bundled icon
+This plugin is MIT licensed (see [LICENSE](https://github.com/JackWeiGogoga/gogoga-icons/blob/main/LICENSE)). The bundled icon
 artwork comes from [Phosphor Icons](https://github.com/phosphor-icons/core),
 Copyright (c) 2023 Phosphor Icons, also under the MIT License.
