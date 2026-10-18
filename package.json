@@ -1,6 +1,6 @@
 {
   "name": "gogoga-icons",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Companion plugin for the gogoga Obsidian theme: replaces built-in Lucide UI icons with Phosphor icons.",
   "type": "module",
   "license": "MIT",

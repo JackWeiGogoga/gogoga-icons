@@ -1,7 +1,7 @@
 {
   "id": "gogoga-icons",
   "name": "gogoga icons",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "minAppVersion": "1.0.0",
   "description": "Companion to the gogoga theme. Replaces the built-in Lucide icons with Phosphor icons, the set used by Tolaria.",
   "author": "jackwei",
