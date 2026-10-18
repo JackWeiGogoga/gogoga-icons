@@ -28,6 +28,10 @@ npm run generate
 
 禁用插件后，重启应用即可恢复原始图标（`addIcon` 没有注销 API）。
 
+## 支持作者
+
+gogoga 系列全部免费开源。如果这个插件帮到了你，欢迎在 [爱发电](https://afdian.com/a/jackweigogoga) 支持一下，Obsidian 社区插件页面里也有赞助按钮。反馈 bug、提建议同样是很大的支持。
+
 ## 许可证
 
 本插件采用 MIT 许可证（见 [LICENSE](https://github.com/JackWeiGogoga/gogoga-icons/blob/main/LICENSE)）。

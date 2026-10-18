@@ -30,6 +30,10 @@ them over the built-in icon ids (both bare and `lucide-`-prefixed).
 Disabling the plugin restores the original icons after an app reload
 (`addIcon` has no unregister API).
 
+## Support
+
+gogoga is free and open source. If this plugin helps you, you can support its development on [afdian (爱发电)](https://afdian.com/a/jackweigogoga). Obsidian also shows a support button for it in the community directory. Bug reports and ideas help just as much.
+
 ## Licenses
 
 This plugin is MIT licensed (see [LICENSE](https://github.com/JackWeiGogoga/gogoga-icons/blob/main/LICENSE)). The bundled icon
