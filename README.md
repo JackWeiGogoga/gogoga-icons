@@ -34,6 +34,10 @@ Disabling the plugin restores the original icons after an app reload
 
 gogoga is free and open source. If this plugin helps you, you can support its development on [afdian (爱发电)](https://afdian.com/a/jackweigogoga). Obsidian also shows a support button for it in the community directory. Bug reports and ideas help just as much.
 
+## Changelog
+
+What changed in each version is in [CHANGELOG.md](CHANGELOG.md) ([中文](CHANGELOG.zh-CN.md)). Add the new version there before releasing: the release notes are taken from it, and the release fails when the entry is missing.
+
 ## Licenses
 
 This plugin is MIT licensed (see [LICENSE](https://github.com/JackWeiGogoga/gogoga-icons/blob/main/LICENSE)). The bundled icon
