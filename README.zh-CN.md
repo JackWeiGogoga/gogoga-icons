@@ -8,9 +8,20 @@ Obsidian 的 `addIcon()` API，把约 110 个 Obsidian 内置的 Lucide 界面�
 
 ## 安装
 
-把 `main.js` 和 `manifest.json` 复制到
-`<vault>/.obsidian/plugins/gogoga-icons/`，然后在
-设置 → 第三方插件 中启用本插件（需要先关闭安全模式）。
+### 插件市场（推荐）
+
+设置 → 第三方插件 → 关闭「安全模式」（新版叫「受限模式」）→ 点「浏览」，搜索 **gogoga icons**，安装后点「启用」。以后有新版本也在这里更新。
+
+### 手动安装
+
+不能联网（比如公司内网）、或者想装指定版本时用：
+
+1. 打开 [Releases 页面](https://github.com/JackWeiGogoga/gogoga-icons/releases/latest)，在 **Assets** 里下载 `main.js`、`manifest.json` 这两个文件。**不要下载 Source code 压缩包**：那是源码，Obsidian 用不了。
+2. 打开你的库（vault）所在文件夹，进到 `.obsidian/plugins/`，新建一个叫 `gogoga-icons` 的文件夹，把下载的文件放进去，最后是 `<库>/.obsidian/plugins/gogoga-icons/main.js` 这样的路径。
+   - `.obsidian` 是隐藏文件夹：macOS 在访达里按 `⌘ ⇧ .` 显示；Windows 在资源管理器的「查看」里勾选「隐藏的项目」。
+3. 重启 Obsidian（或在 设置 → 第三方插件 里点刷新按钮），在「已安装插件」列表里启用 **gogoga icons**。
+
+手机上不方便放文件，建议用插件市场装。
 
 ## 开发
 
