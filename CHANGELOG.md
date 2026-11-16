@@ -1,6 +1,11 @@
 # Changelog
 
-All notable changes to gogoga icons are listed here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/). 中文版见 [CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md).
+All notable changes to gogoga Icons are listed here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/). 中文版见 [CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md).
+
+## [0.1.5] - 2026-11-17
+
+### Changed
+- Renamed to gogoga Icons (capitalized) to match the other gogoga plugins. The plugin id is unchanged, so settings carry over.
 
 ## [0.1.4] - 2026-10-18
 
@@ -32,6 +37,7 @@ First public release.
 ### Added
 - Replaces about 110 of Obsidian's Lucide interface icons with Phosphor icons (regular weight), as used by Tolaria.
 
+[0.1.5]: https://github.com/JackWeiGogoga/gogoga-icons/compare/0.1.4...0.1.5
 [0.1.4]: https://github.com/JackWeiGogoga/gogoga-icons/compare/0.1.3...0.1.4
 [0.1.3]: https://github.com/JackWeiGogoga/gogoga-icons/compare/0.1.2...0.1.3
 [0.1.2]: https://github.com/JackWeiGogoga/gogoga-icons/compare/0.1.1...0.1.2

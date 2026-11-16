@@ -1,6 +1,11 @@
 # 更新日志
 
-gogoga icons 每个版本的主要变化都记在这里。格式参照 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，版本号遵循[语义化版本](https://semver.org/lang/zh-CN/)。English: [CHANGELOG.md](CHANGELOG.md).
+gogoga Icons 每个版本的主要变化都记在这里。格式参照 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，版本号遵循[语义化版本](https://semver.org/lang/zh-CN/)。English: [CHANGELOG.md](CHANGELOG.md).
+
+## [0.1.5] - 2026-11-17
+
+### 变更
+- 插件名改为 gogoga Icons（首字母大写），和其他 gogoga 插件统一。插件 id 没变，设置不受影响。
 
 ## [0.1.4] - 2026-10-18
 
@@ -32,6 +37,7 @@ gogoga icons 每个版本的主要变化都记在这里。格式参照 [Keep a C
 ### 新增
 - 把 Obsidian 约 110 个 Lucide 界面图标换成 Phosphor 图标（regular 粗细），和 Tolaria 一致。
 
+[0.1.5]: https://github.com/JackWeiGogoga/gogoga-icons/compare/0.1.4...0.1.5
 [0.1.4]: https://github.com/JackWeiGogoga/gogoga-icons/compare/0.1.3...0.1.4
 [0.1.3]: https://github.com/JackWeiGogoga/gogoga-icons/compare/0.1.2...0.1.3
 [0.1.2]: https://github.com/JackWeiGogoga/gogoga-icons/compare/0.1.1...0.1.2

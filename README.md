@@ -1,4 +1,4 @@
-# gogoga icons
+# gogoga Icons
 
 **English** | [简体中文](https://github.com/JackWeiGogoga/gogoga-icons/blob/main/README.zh-CN.md)
 
@@ -10,7 +10,7 @@ Obsidian's built-in Lucide UI icons with [Phosphor Icons](https://phosphoricons.
 
 ### Community plugins (recommended)
 
-Settings → Community plugins → turn off **Restricted mode** → **Browse**, search for **gogoga icons**, install it, then click **Enable**. Updates show up there too.
+Settings → Community plugins → turn off **Restricted mode** → **Browse**, search for **gogoga Icons**, install it, then click **Enable**. Updates show up there too.
 
 ### Manual install
 
@@ -19,7 +19,7 @@ For offline machines (such as a company network) or to pin a specific version:
 1. Open the [Releases page](https://github.com/JackWeiGogoga/gogoga-icons/releases/latest) and download the two files `main.js`, `manifest.json` under **Assets**. **Don't download the Source code archives**: they are the source code, which Obsidian can't load.
 2. In your vault's folder, go to `.obsidian/plugins/`, create a folder named `gogoga-icons`, and put the files in it, so you end up with paths like `<vault>/.obsidian/plugins/gogoga-icons/main.js`.
    - `.obsidian` is a hidden folder: press `⌘ ⇧ .` in Finder on macOS; on Windows, tick **Hidden items** under **View** in File Explorer.
-3. Restart Obsidian (or click the refresh button under Settings → Community plugins), then enable **gogoga icons** in the list of installed plugins.
+3. Restart Obsidian (or click the refresh button under Settings → Community plugins), then enable **gogoga Icons** in the list of installed plugins.
 
 On phones, where moving files around is awkward, use the community plugins browser.
 
