@@ -2,6 +2,8 @@
 
 **English** | [简体中文](https://github.com/JackWeiGogoga/gogoga-icons/blob/main/README.zh-CN.md)
 
+**Website:** [obsidian.gogoga.top](https://obsidian.gogoga.top/en/plugins/gogoga-icons/) — screenshots, features and downloads.
+
 Companion plugin for the [gogoga](https://github.com/JackWeiGogoga/gogoga-theme) Obsidian theme. It replaces ~110 of
 Obsidian's built-in Lucide UI icons with [Phosphor Icons](https://phosphoricons.com/)
 (regular weight) — the icon set used by Tolaria — via Obsidian's `addIcon()` API.

@@ -2,6 +2,8 @@
 
 [English](https://github.com/JackWeiGogoga/gogoga-icons/blob/main/README.md) | **简体中文**
 
+**官网：**[obsidian.gogoga.top](https://obsidian.gogoga.top/plugins/gogoga-icons/)，截图、功能介绍和下载。
+
 [gogoga](https://github.com/JackWeiGogoga/gogoga-theme) Obsidian 主题的配套插件。它通过
 Obsidian 的 `addIcon()` API，把约 110 个 Obsidian 内置的 Lucide 界面图标替换为
 [Phosphor Icons](https://phosphoricons.com/)（regular 字重）——也就是 Tolaria 使用的图标集。
